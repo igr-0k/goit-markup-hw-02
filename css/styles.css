@@ -38,16 +38,12 @@ body {
 }
 
 .section-title,
-.benefits-subtitle,
+.features-subtitle,
 .team-mmbr {
   color: var(--title-color);
 }
 
 /* ----------------HEADER---------------- */
-
-.header {
-  background-color: #fff;
-}
 
 .logo,
 .logo-web {
@@ -65,15 +61,6 @@ body {
 
 .logo-web {
   color: var(--accent-color);
-}
-
-.nav-menu {
-}
-
-.nav-menu-list {
-}
-
-.nav-menu-item {
 }
 
 .nav-menu-link {
@@ -109,7 +96,7 @@ body {
 
 /* -------------Hero Section------------- */
 
-.hero {
+.hero-section {
   background-color: #2f303a;
 }
 .hero-title {
@@ -150,17 +137,17 @@ body {
   background-color: #188ce8;
 }
 
-/* -----------Benefits Section----------- */
+/* -----------Features Section----------- */
 
-.benefits-subtitle {
-  font-weight: 700;
+.features-subtitle {
+   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.benefits-descr {
+.features-descr {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -169,10 +156,9 @@ body {
 
 /* ----------Solutions Sections---------- */
 
-
 /* -------------Team Section------------- */
 
-.section {
+.team-section {
   background-color: #f5f4fa;
 }
 
@@ -207,8 +193,6 @@ body {
 .footer-address {
   font-style: normal;
 }
-.footer-list {
-}
 
 .footer-location {
   font-weight: 400;
@@ -218,8 +202,6 @@ body {
   color: #fff;
 }
 
-.footer-item {
-}
 .footer-link {
   font-weight: 400;
   font-size: 14px;
