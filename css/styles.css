@@ -1,0 +1,229 @@
+:root {
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
+}
+
+body {
+  background-color: #fff;
+  color: var(--text-color);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section-title,
+.benefits-subtitle,
+.team-mmbr {
+  color: var(--title-color);
+}
+
+/* ----------------HEADER---------------- */
+
+.header {
+  background-color: #fff;
+}
+
+.logo,
+.logo-web {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #000;
+
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.nav-menu {
+}
+
+.nav-menu-list {
+}
+
+.nav-menu-item {
+}
+
+.nav-menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-contacts {
+  margin: 0;
+}
+
+.header-contacts-item {
+}
+
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.header-contacts-link:hover {
+  color: var(--accent-color);
+}
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* -------------Hero Section------------- */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #fff;
+  margin: 0;
+}
+.hero-btn {
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.06em;
+
+  color: #fff;
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #188ce8;
+}
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* -----------Benefits Section----------- */
+
+.benefits-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ----------Solutions Sections---------- */
+
+
+/* -------------Team Section------------- */
+
+.section {
+  background-color: #f5f4fa;
+}
+
+.team-item {
+  background-color: #fff;
+}
+
+.team-mmbr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-mmbr-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* ----------------FOOTER---------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+    color: #fff;
+}
+
+.footer-address {
+  font-style: normal;
+}
+.footer-list {
+}
+
+.footer-location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.footer-item {
+}
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
