@@ -66,12 +66,11 @@ body {
 }
 
 .nav-menu-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .nav-menu-link.current {
@@ -140,7 +139,7 @@ body {
 /* -----------Features Section----------- */
 
 .features-subtitle {
-   font-weight: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -187,7 +186,7 @@ body {
 }
 
 .footer .logo {
-    color: var(--w-color);
+  color: var(--w-color);
 }
 
 .footer-address {
@@ -213,7 +212,7 @@ body {
 /* ---------------PORTFOLIO--------------- */
 
 .filter-btn {
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   border: 0;
 
@@ -246,6 +245,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  
+
   color: var(--text-color);
 }
