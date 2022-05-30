@@ -2,10 +2,11 @@
   --accent-color: #2196f3;
   --text-color: #757575;
   --title-color: #212121;
+  --w-color: #fff;
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--w-color);
   color: var(--text-color);
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -39,7 +40,8 @@ body {
 
 .section-title,
 .features-subtitle,
-.team-mmbr {
+.team-mmbr,
+.poject-title {
   color: var(--title-color);
 }
 
@@ -72,11 +74,12 @@ body {
   color: #212121;
 }
 
-.header-contacts {
-  margin: 0;
+.nav-menu-link.current {
+  color: var(--accent-color);
 }
 
-.header-contacts-item {
+.header-contacts {
+  margin: 0;
 }
 
 .header-contacts-link {
@@ -107,7 +110,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #fff;
+  color: var(--w-color);
   margin: 0;
 }
 .hero-btn {
@@ -116,6 +119,7 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
 
   font-family: inherit;
   font-weight: 700;
@@ -123,16 +127,12 @@ body {
   line-height: 1.18;
   letter-spacing: 0.06em;
 
-  color: #fff;
-
-  border: 0;
+  color: var(--w-color);
 
   cursor: pointer;
 }
 
-.hero-btn:hover {
-  background-color: #188ce8;
-}
+.hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
 }
@@ -163,7 +163,7 @@ body {
 }
 
 .team-item {
-  background-color: #fff;
+  background-color: var(--w-color);
 }
 
 .team-mmbr {
@@ -187,7 +187,7 @@ body {
 }
 
 .footer .logo {
-    color: #fff;
+    color: var(--w-color);
 }
 
 .footer-address {
@@ -199,7 +199,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: var(--w-color);
 }
 
 .footer-link {
@@ -208,4 +208,44 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------------PORTFOLIO--------------- */
+
+.filter-btn {
+  background: #F5F4FA;
+  border-radius: 4px;
+  border: 0;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.poject-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  
+  color: var(--text-color);
 }
