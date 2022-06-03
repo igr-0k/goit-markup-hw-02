@@ -5,10 +5,19 @@
   --w-color: #fff;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* * {
+  outline: 1px solid tomato;
+} */
+
 body {
   background-color: var(--w-color);
   color: var(--text-color);
-  margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -50,7 +59,6 @@ body {
 .logo,
 .logo-web {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -230,6 +238,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
+  color: var(--w-color);
   background-color: var(--accent-color);
 }
 
